@@ -127,6 +127,15 @@ while (number < 101) {
  *Pass in a number value to invoke your function. Console.log donutBought.
 */ 
 
+var donutPrice = 5;
+var donutBought = 0;
 
+function buyDonut(budget) {
+	while(budget >= donutPrice) {
+		budget -= donutPrice;
+		donutBought++;
+	}
+	console.log(donutBought);
+}
 
-
+buyDonut(20);
