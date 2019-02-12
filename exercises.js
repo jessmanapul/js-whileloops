@@ -49,8 +49,11 @@ while (num < 12) {
 "I like to binge watch Keeping up with the Kardasians."*/
 
 var tvShows = ["Breaking Bad", "Game of Thrones", "The Bachelor", "The Walking Dead", "Keeping Up with the Kardasians"];
-
-
+var showIndex = 0;
+while (showIndex < tvShows.length) {
+	console.log("I like to binge watch " + tvShows[showIndex] + ".");
+	showIndex++;
+}
 
 /*4. Generate a multiplication table for the number 3 and print out the following:
 
