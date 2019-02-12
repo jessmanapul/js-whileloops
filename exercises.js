@@ -67,7 +67,11 @@ while (showIndex < tvShows.length) {
 
 */
 
-
+var multiple = 1;
+while (multiple < 10) {
+	console.log(multiple + " x 3 = " + multiple*3);
+	multiple++;
+}
 
 
 
