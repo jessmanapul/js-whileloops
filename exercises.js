@@ -102,6 +102,19 @@ devleague homie!
 ...
 ...*/
 
+var number = 1;
+while (number < 101) {
+	if (number%3 === 0 && number%5 !== 0) {
+		console.log(number, "dev");
+	} else if (number%5 === 0 && number%3 !== 0) {
+		console.log(number, "league");
+	} else if (number%3 === 0 && number%5 === 0) {
+		console.log(number, "devleague");
+	} else {
+		console.log(number);
+	}
+	number++;
+}
 
 /*
  * #6
